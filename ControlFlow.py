@@ -26,5 +26,23 @@ while (int(response) % 7) != 0:
     if int(response) % 7 == 0:
         break
 
+c=5
+while c != 0:
+    print (c)
+    c -= 1
+
+#bool(0) == FALSE
+c = 4
+while c :
+    print (c)
+    c -= 1
+
+c=5
+#True is case sensitive
+while True:
+    print (c)
+    c -= 1
+    if c == 0:
+        break
 
 
