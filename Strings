@@ -1,7 +1,34 @@
-'This is a string'
-"this is a string"
-'"This is  string"'
+print ('This is a string')
+print ("this is a string")
+print ('"This is  string"')
 #raw string
 path = r'This\is\a\raw:\string'
 print (path)
-path[4]
+print (path[4])
+type(path)
+#help (str)
+ 
+fruit = ["apple","pear","bananas"]
+print (fruit[0])
+
+cities =["london","milwaukee", "paris", "helsinki"]
+for city in cities :
+    print (city)
+
+#here's a dictionary example
+colors ={'red':0xdc143c, 'coral':0xff7f50, 'teal':0x008080}
+for color in colors:
+    print (color, colors[color])
+
+from urllib.request import urlopen
+story = urlopen('http://sixty-north.com/c/t.txt')
+story_words =[]
+for line in story:
+        line_words = line.split()
+        for word in line_words:
+            story_words.append(word)
+story.close()
+#We see bytes are returned
+
+
+
