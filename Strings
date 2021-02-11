@@ -1,0 +1,7 @@
+'This is a string'
+"this is a string"
+'"This is  string"'
+#raw string
+path = r'This\is\a\raw:\string'
+print (path)
+path[4]
